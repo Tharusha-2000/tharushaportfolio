@@ -236,7 +236,7 @@ export const experiences = [
   },
   {
     id: 3,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGBy1obK8JMJpfuwXGw5zxFqDnQJaIEYfHQg&s",
+    img: "https://firebasestorage.googleapis.com/v0/b/protofilo-fe6a9.appspot.com/o/Personaldetails%2Fboy.png?alt=media&token=e62a2d2c-5a39-4bef-92fe-cfc4b5a9869b",
     role: "Photography",
     company: "",
     date: "Hobby",

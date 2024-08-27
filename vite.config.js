@@ -7,6 +7,9 @@ export default defineConfig({
   build: {
     minify: false, // Disable minification
     sourcemap: true,
+    rollupOptions: {
+      external: ['react-modal'],
+    },
   },
 
 })
