@@ -2,19 +2,21 @@ import React from 'react';
 import styled from 'styled-components';
 
 
-const Div = styled.div`
+const HeroBgAnimation = () => {
+ 
+  const Div = styled.div`
   width:600px;
   height: 500px;
 `;
 
-const HeroBgAnimation = () => (
+  return (
   <Div>
-    <svg
+   <svg
       className="BgAnimation__svg"
       viewBox="0 0 602 602"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-    >
+    > 
       <g opacity="0.15">
         <path
           fillRule="evenodd"
@@ -272,8 +274,9 @@ const HeroBgAnimation = () => (
           <stop offset="1" />
         </linearGradient>
       </defs>
-    </svg>
+     </svg> 
   </Div>
-);
+    );
+};
 
 export default HeroBgAnimation;
