@@ -8,13 +8,13 @@ const Top = styled.div`
   max-width: 100%;
   gap: 12px;
 `;
-const Image = styled.img`
-  height: 50px;
-  border-radius: 10px;
-  margin-top: 4px;
+const PotImage = styled.img`
+  width: 100px;  // Set the width as needed
+  height: 100px; // Set the height as needed
 
   @media only screen and (max-width: 768px) {
-    height: 40px;
+    width: 50px;  // Set the width for small screens as needed
+    height: 50px; // Set the height for small screens as needed
   }
 `;
 const Body = styled.div`
@@ -50,7 +50,7 @@ const Date = styled.div`
     font-size: 10px;
   }
 `;
-const StyledImage = styled.img`
+const Image = styled.img`
   width: 100px;  // Set the width as needed
   height: 100px; // Set the height as needed
 
@@ -59,7 +59,6 @@ const StyledImage = styled.img`
     height: 50px; // Set the height for small screens as needed
   }
 `;
-
 
 const Grade = styled.div`
   font-size: 14px;
@@ -157,11 +156,9 @@ const ExperienceCard = ({ experience }) => {
             </Skills>
           </>
         )}
-       <ImageContainer>
-          {experience?.pot && experience.pot.map((imgUrl, index) => (
-           <StyledImage key={index} src={imgUrl} alt="Pot" />
-            ))}
-       </ImageContainer>
+ {experience?.pot && experience.pot.map((imgUrl, index) => (
+  <PotImage key={index} src={imgUrl} alt="Pot" />
+))}
       </Description>
     </VerticalTimelineElement>
   );
