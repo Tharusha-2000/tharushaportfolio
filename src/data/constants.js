@@ -66,6 +66,11 @@ export const skills = [
         image:
           "https://firebasestorage.googleapis.com/v0/b/protofilo-fe6a9.appspot.com/o/Personaldetails%2FVercel%20Logo.png?alt=media&token=e77598dc-79e2-4833-ba9b-b92dcdc653e6",
       },
+      {
+        name: "Netlify",
+        image:
+          "https://firebasestorage.googleapis.com/v0/b/protofilo-fe6a9.appspot.com/o/Personaldetails%2FNetlify.webp?alt=media&token=957d57ad-2af7-4ebd-817c-3c9e5ce1065b",
+      },
     ],
   },
   {
