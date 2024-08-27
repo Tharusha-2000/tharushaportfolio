@@ -1,6 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import { VerticalTimelineElement } from "react-vertical-timeline-component";
+import Modal from 'react-modal';
+
 
 const Top = styled.div`
   width: 100%;
@@ -50,6 +52,21 @@ const Date = styled.div`
     font-size: 10px;
   }
 `;
+const StyledImage = styled.img`
+  width: 100px;  // Set the width as needed
+  height: 100px; // Set the height as needed
+
+  @media only screen and (max-width: 768px) {
+    width: 50px;  // Set the width for small screens as needed
+    height: 50px; // Set the height for small screens as needed
+  }
+`;
+const ImageContainer = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+`;
+
 const Grade = styled.div`
   font-size: 14px;
   font-weight: 500;
@@ -94,7 +111,18 @@ const ItemWrapper = styled.div`
   gap: 8px;
 `;
 
+
 const ExperienceCard = ({ experience }) => {
+  const [modalIsOpen, setModalIsOpen] = React.useState(false);
+  const [selectedImage, setSelectedImage] = React.useState(null);
+  const openModal = (imgUrl) => {
+    setSelectedImage(imgUrl);
+    setModalIsOpen(true);
+  };
+  const closeModal = () => {
+    setModalIsOpen(false);
+  };
+
   return (
     <VerticalTimelineElement
       icon={
@@ -146,6 +174,19 @@ const ExperienceCard = ({ experience }) => {
             </Skills>
           </>
         )}
+      {experience?.pot && experience.pot.map((imgUrl, index) => (
+  <button key={index} onClick={() => openModal(imgUrl)}>
+    <StyledImage src={imgUrl} alt="Pot" />
+  </button>
+))}
+   <Modal
+    isOpen={modalIsOpen}
+    onRequestClose={closeModal}
+    contentLabel="Image Modal"
+  >
+    <button onClick={closeModal}>Close</button>
+    {selectedImage && <img src={selectedImage} alt="Pot" />}
+  </Modal>
       </Description>
     </VerticalTimelineElement>
   );
