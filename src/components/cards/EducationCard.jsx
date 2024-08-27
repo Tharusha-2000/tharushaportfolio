@@ -109,7 +109,7 @@ const EducationCard = ({ education }) => {
         </Body>
       </Top>
       <Grade>
-        <b>Grade :</b>
+        <b>Result :</b>
         {education.grade}
       </Grade>
       <Description>
