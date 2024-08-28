@@ -243,9 +243,10 @@ export const experiences = [
     pot: [
       "https://firebasestorage.googleapis.com/v0/b/protofilo-fe6a9.appspot.com/o/Personaldetails%2FWhatsApp%20Image%202024-08-28%20at%2004.15.30.jpeg?alt=media&token=c5a7d5df-a93d-4f2e-9e87-8439db929a33",
       "https://firebasestorage.googleapis.com/v0/b/protofilo-fe6a9.appspot.com/o/Personaldetails%2FWhatsApp%20Image%202024-08-28%20at%2004.15.55.jpeg?alt=media&token=b3d7f8f8-624e-4c93-a672-d8680be4fb54",
-      "https://firebasestorage.googleapis.com/v0/b/protofilo-fe6a9.appspot.com/o/Personaldetails%2FWhatsApp%20Image%202024-08-28%20at%2004.18.41.jpeg?alt=media&token=5e330802-f3c6-44f9-8707-ff94387bfd50",
+      "https://firebasestorage.googleapis.com/v0/b/protofilo-fe6a9.appspot.com/o/Personaldetails%2FWhatsApp%20Image%202024-08-28%20at%2005.56.40.jpeg?alt=media&token=70bf957d-cf9d-4acc-97ac-aaff8fd6372f",
       " https://firebasestorage.googleapis.com/v0/b/protofilo-fe6a9.appspot.com/o/Personaldetails%2FWhatsApp%20Image%202024-08-28%20at%2005.41.44.jpeg?alt=media&token=66602626-3563-4959-b272-36d5e1a183dc",
-      "https://firebasestorage.googleapis.com/v0/b/protofilo-fe6a9.appspot.com/o/Personaldetails%2FWhatsApp%20Image%202024-08-28%20at%2004.19.03.jpeg?alt=media&token=ed425ef7-7f1e-405a-a78d-ea6dd9ada6fe",
+      "https://firebasestorage.googleapis.com/v0/b/protofilo-fe6a9.appspot.com/o/Personaldetails%2FWhatsApp%20Image%202024-08-28%20at%2004.18.41.jpeg?alt=media&token=5e330802-f3c6-44f9-8707-ff94387bfd50",
+      "https://firebasestorage.googleapis.com/v0/b/protofilo-fe6a9.appspot.com/o/Personaldetails%2FWhatsApp%20Image%202024-08-28%20at%2005.49.39.jpeg?alt=media&token=ec81ac59-9cbf-43a6-8194-abca9b3d51ca",
     ],
    
   },
