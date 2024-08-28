@@ -9,12 +9,12 @@ const Top = styled.div`
   gap: 12px;
 `;
 const PotImage = styled.img`
-  width: 100px;  // Set the width as needed
-  height: 100px; // Set the height as needed
+  width: 250px;  // Set the width as needed
+  height: 150px; // Set the height as needed
 
   @media only screen and (max-width: 768px) {
-    width: 50px;  // Set the width for small screens as needed
-    height: 50px; // Set the height for small screens as needed
+    width: 120px;  // Set the width for small screens as needed
+    height: 100px; // Set the height for small screens as needed
   }
 `;
 const Body = styled.div`
