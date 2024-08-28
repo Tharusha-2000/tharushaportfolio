@@ -13,7 +13,7 @@ const PotImage = styled.img`
   height: 300px; // Set the height as needed
 
   @media only screen and (max-width: 768px) {
-    width: 100px;  // Set the width for small screens as needed
+    width: 120px;  // Set the width for small screens as needed
     height: 140px; // Set the height for small screens as needed
   }
 `;
