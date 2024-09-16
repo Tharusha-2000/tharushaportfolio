@@ -10,7 +10,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/Tharusha-2000",
   resume:
-    "https://firebasestorage.googleapis.com/v0/b/protofilo-fe6a9.appspot.com/o/Personaldetails%2Ftharusha1.pdf?alt=media&token=953a7305-3598-43df-a9ad-b72fa1e72252",
+    "https://firebasestorage.googleapis.com/v0/b/protofilo-fe6a9.appspot.com/o/Personaldetails%2FTharushaGunasekara.pdf?alt=media&token=44ed625b-40c9-4830-be01-57ddf2b4ae4c",
   linkedin: "https://www.linkedin.com/in/tharushadinuth/",
   insta: "https://www.instagram.com/______td_____/",
   facebook: "https://web.facebook.com/profile.php?id=100004544387202",
@@ -398,16 +398,17 @@ export const projects = [
     title: "Fitness tracking system",
     date: "present - Aug 2024",
     description:
-      "This project will help to create a powerful full fitness tracking application that can monitor workouts, track progress, and provide valuable insights into the fitness journey. This project aims to be a comprehensive solution for users to manage their fitness activities, track their progress, and receive insights that help them stay motivated and achieve their fitness goals.",
+      "This project will help to create a powerful full fitness tracking application that can monitor workouts, track progress, and provide valuable insights into the fitness journey. This project aims to be a comprehensive solution for users to manage their fitness activities, track their progress, and receive insights that help them stay motivated and achieve their fitness goals.do that with web and mobile responsive",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/protofilo-fe6a9.appspot.com/o/Personaldetails%2FAuthImage.4a89d3a73ccc9ead1b58.jpg?alt=media&token=a52f5721-c318-47c5-aa15-f1ef84edf7de",
-    tags: [ "React Native",
+      "https://firebasestorage.googleapis.com/v0/b/protofilo-fe6a9.appspot.com/o/Personaldetails%2FRRR.png?alt=media&token=6d8f47c4-3cf7-43e0-bbb0-a8d1ae4388fd",
+    tags: [ "React ",
     "MongoDb",
     "Node Js",
     "Express Js",
-    "MUI"
+    "styled-components",
+    "NodeMailer"
   ],
-    category: "android app",
+    category: "web app",
     github: "https://github.com/Tharusha-2000/FitnessTrackBackend_using_MERN.git",
     webapp: "",
   },
