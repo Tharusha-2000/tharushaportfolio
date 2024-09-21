@@ -410,7 +410,7 @@ export const projects = [
   ],
     category: "web app",
     github: "https://github.com/Tharusha-2000/FitnessTrackBackend_using_MERN.git",
-    webapp: "",
+    webapp: "https://fitness-track-frontend-using-mern.vercel.app/",
   },
   {
     id: 3,
