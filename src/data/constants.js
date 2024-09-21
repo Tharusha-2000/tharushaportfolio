@@ -10,7 +10,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/Tharusha-2000",
   resume:
-    "https://firebasestorage.googleapis.com/v0/b/protofilo-fe6a9.appspot.com/o/Personaldetails%2FTharushaGunasekara.pdf?alt=media&token=44ed625b-40c9-4830-be01-57ddf2b4ae4c",
+    "https://firebasestorage.googleapis.com/v0/b/protofilo-fe6a9.appspot.com/o/Personaldetails%2FCV%20newest.pdf?alt=media&token=9f29f013-e4bf-4a22-9aa1-30105da4a760",
   linkedin: "https://www.linkedin.com/in/tharushadinuth/",
   insta: "https://www.instagram.com/______td_____/",
   facebook: "https://web.facebook.com/profile.php?id=100004544387202",
